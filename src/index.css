@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f6f5f2;
+}
+
+/* fonts */
+
+.protest {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lily {
+  font-family: "Lily Script One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  cursor: none;
+}
+
+/* utilities */
+@layer utilities {
+  .container {
+    @apply max-w-screen-xl mx-auto px-4 sm:px-8;
+  }
+  .project-container {
+    @apply max-w-screen-lg mx-auto;
+  }
+
+  .cursor {
+    @apply fixed z-50 top-0 left-0 w-[32px] h-[32px] rounded-full bg-black pointer-events-none;
+  }
+
+  .grid-container {
+    @apply flex h-full w-full flex-col gap-5 rounded-lg border border-black-300 bg-black-200 p-4 sm:p-7;
+  }
+
+  .grid-headtext {
+    @apply mb-2 font-generalsans text-xl font-semibold text-white;
+  }
+
+  .grid-subtext {
+    @apply text-base text-[#afb0b6];
+  }
+
+  .copy-container {
+    @apply flex cursor-pointer items-center justify-start gap-2;
+  }
+
+  .contact-container {
+    @apply relative z-10 mt-12 max-w-xl px-5 sm:px-10;
+  }
+
+  .field-input {
+    @apply min-h-14 w-full rounded-lg px-5 py-2 text-lg border-2 border-primaryText focus:outline-none;
+  }
+  .field-label {
+    @apply barlow-semibold text-xl md:text-2xl;
+  }
+
+  .field-btn {
+    @apply flex min-h-12 items-center justify-center gap-3 rounded-lg px-5 py-2 text-lg text-white shadow-2xl;
+  }
+
+  .field-btn_arrow {
+    @apply h-2.5 w-2.5 object-contain brightness-0 invert;
+  }
+}
