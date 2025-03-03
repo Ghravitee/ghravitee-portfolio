@@ -15,10 +15,10 @@ const FixedSocialHandles = ({ containerClassName, childrenClassName }) => {
   );
   return (
     <div className={newContainerClassName}>
-      <a href="#">
+      <a href="https://github.com/Ghravitee">
         <FaGithub className={newChildrenClassName} />
       </a>
-      <a href="#">
+      <a href="https://t.me/Ghravitee">
         <BiLogoTelegram className={newChildrenClassName} />
       </a>
       <a href="#">
