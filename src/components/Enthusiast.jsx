@@ -55,10 +55,13 @@ const Enthusiast = () => {
           </h1>
         </motion.div>
       </div>
-      <button className="mx-auto text-lg md:text-2xl tracking-wider gap-2 mt-10 lg:mt-14 barlow-bold uppercase bg-primaryText text-white flex justify-center items-center p-3 lg:p-4">
+      <a
+        href="https://www.frontendmentor.io/profile/Ghravitee"
+        className="w-fit mx-auto text-lg md:text-2xl tracking-wider gap-2 mt-10 lg:mt-14 barlow-bold uppercase bg-primaryText text-white flex justify-center items-center p-3 lg:p-4"
+      >
         Explore my challenges{" "}
         <SiFrontendmentor className="text-2xl text-white" />
-      </button>
+      </a>
 
       {/* Spacer div for simulating scroll */}
       <div className="h-[10vh]" />

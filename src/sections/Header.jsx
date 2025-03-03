@@ -81,13 +81,14 @@ const Header = () => {
           Ghrav<span className="text-secondaryText">itee</span>
         </p>
         <div className="flex justify-between items-center gap-6">
-          <button
+          <a
+            href="#contact"
             onMouseEnter={textEnter}
             onMouseLeave={textLeave}
             className="hidden bg-primarybtn md:flex justify-center outfit font-extrabold items-center text-white text-xl uppercase px-4 py-3 tracking-widest"
           >
             contact
-          </button>
+          </a>
           {/* <GiHamburgerMenu className="text-7xl text-primaryText cursor-pointer" /> */}
           <div
             onMouseEnter={textEnter}
